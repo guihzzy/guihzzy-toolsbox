@@ -1,0 +1,149 @@
+{
+  "appName": "WYZ TOOLBOX",
+  "version": "1.0.0",
+  "author": "Wyz E-commerce",
+  "columns": [
+    {
+      "title": "DEV TOOLS & RUNTIMES",
+      "items": [
+        { "id": "1", "name": "Git", "sub": "Version Control", "packageId": "Git.Git" },
+        { "id": "2", "name": "Node.js LTS", "sub": "JS Runtime", "packageId": "OpenJS.NodeJS.LTS" },
+        { "id": "3", "name": "pnpm", "sub": "Fast Package Mgr", "packageId": "pnpm.pnpm" },
+        { "id": "4", "name": "Antigravity IDE", "sub": "Agentic IDE", "packageId": "Google.AntigravityIDE" },
+        { "id": "5", "name": "Antigravity 2.0", "sub": "Google AI Center", "packageId": "Google.Antigravity" },
+        { "id": "6", "name": "VS Code", "sub": "Visual Studio Code", "packageId": "Microsoft.VisualStudioCode" },
+        { "id": "7", "name": "Python 3.12", "sub": "64-bit Runtime", "packageId": "Python.Python.3.12" },
+        { "id": "8", "name": "Visual C++ AIO", "sub": "Runtimes 2005-2022", "packageId": "abbodi1406.vcredist" }
+      ]
+    },
+    {
+      "title": "BROWSERS & APPS",
+      "items": [
+        { "id": "10", "name": "Brave Browser", "sub": "Privacy Browser", "packageId": "Brave.Brave" },
+        { "id": "11", "name": "Discord", "sub": "Versao Estavel", "packageId": "Discord.Discord" },
+        { "id": "12", "name": "Discord PTB", "sub": "Public Test Build", "packageId": "Discord.Discord.PTB" },
+        { "id": "13", "name": "Discord Canary", "sub": "Alpha Experimental", "packageId": "Discord.Discord.Canary" },
+        { "id": "14", "name": "Discord Dev", "sub": "Development Build", "packageId": "Discord.Discord.Development" },
+        { "id": "15", "name": "Spotify", "sub": "Musicas e Podcasts", "packageId": "Spotify.Spotify" },
+        { "id": "16", "name": "Logitech G HUB", "sub": "Perifericos e Mouse", "packageId": "Logitech.GHUB" },
+        { "id": "17", "name": "Google Chrome", "sub": "Navegador Web", "packageId": "Google.Chrome" },
+        { "id": "18", "name": "7-Zip", "sub": "Compactador 64-bit", "packageId": "7zip.7zip" }
+      ]
+    }
+  ],
+  "combos": [
+    {
+      "id": "20",
+      "name": "Discord Full Pack",
+      "sub": "Stable, PTB, Canary, Dev",
+      "packageIds": [
+        "Discord.Discord",
+        "Discord.Discord.PTB",
+        "Discord.Discord.Canary",
+        "Discord.Discord.Development"
+      ]
+    },
+    {
+      "id": "21",
+      "name": "Web Dev Pack",
+      "sub": "Git, Node LTS, pnpm, VSCode",
+      "packageIds": [
+        "Git.Git",
+        "OpenJS.NodeJS.LTS",
+        "pnpm.pnpm",
+        "Microsoft.VisualStudioCode"
+      ]
+    },
+    {
+      "id": "22",
+      "name": "Antigravity Suite",
+      "sub": "IDE + 2.0 Command Center",
+      "packageIds": [
+        "Google.AntigravityIDE",
+        "Google.Antigravity"
+      ]
+    },
+    {
+      "id": "23",
+      "name": "Gamer & Audio Pack",
+      "sub": "Logitech, Discord, Spotify",
+      "packageIds": [
+        "Logitech.GHUB",
+        "Discord.Discord",
+        "Spotify.Spotify"
+      ]
+    },
+    {
+      "id": "24",
+      "name": "Pacote Essencial",
+      "sub": "Brave, 7-Zip, Visual C++",
+      "packageIds": [
+        "Brave.Brave",
+        "7zip.7zip",
+        "abbodi1406.vcredist"
+      ]
+    },
+    {
+      "id": "25",
+      "name": "Pack do Guih",
+      "sub": "Todos os apps favoritos do Guih",
+      "packageIds": [
+        "Brave.Brave",
+        "Discord.Discord",
+        "Discord.Discord.PTB",
+        "Discord.Discord.Canary",
+        "Discord.Discord.Development",
+        "Logitech.GHUB",
+        "OpenJS.NodeJS.LTS",
+        "pnpm.pnpm",
+        "Git.Git",
+        "Google.AntigravityIDE",
+        "Google.Antigravity",
+        "Spotify.Spotify"
+      ]
+    },
+    {
+      "id": "99",
+      "name": "TODOS OS APPS",
+      "sub": "Instalar Lista Completa",
+      "packageIds": "ALL"
+    }
+  ],
+  "tweaks": [
+    {
+      "id": "30",
+      "name": "Flush DNS & Winsock",
+      "sub": "Redefinir conexao e cache",
+      "action": "flush_dns"
+    },
+    {
+      "id": "31",
+      "name": "Limpar Temp & Cache",
+      "sub": "Temp, Prefetch e Logs",
+      "action": "clear_temp"
+    },
+    {
+      "id": "32",
+      "name": "Desempenho Maximo",
+      "sub": "Plano Ultimate Performance",
+      "action": "ultimate_performance"
+    },
+    {
+      "id": "33",
+      "name": "Reiniciar Explorer",
+      "sub": "Recarrega barra de tarefas",
+      "action": "restart_explorer"
+    },
+      "id": "34",
+      "name": "Atualizar WinGet",
+      "sub": "Sincronizar repositorios",
+      "action": "winget_update"
+    },
+    {
+      "id": "35",
+      "name": "Otimizar Mouse & Teclado",
+      "sub": "Velocidade 6, Aceleração OFF, Teclado Rapido",
+      "action": "optimize_input"
+    }
+  ]
+}
